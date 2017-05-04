@@ -1,0 +1,116 @@
+/*
+ * Estilos reutilizables
+ */
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.barra{
+  float:right;
+}
+.container{
+    width: 100%;
+
+    margin:0px auto;
+}
+.row:before, .row:after{
+    content: " ";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+[class*="col-"]{
+  min-height: 7px;
+  float:left;
+}
+.col-1{
+  width:8.333%;
+}
+.col-2{
+  width:16.666%;
+}
+.col-3{
+  width:25%;
+}
+.col-4{
+  width:33.333%;
+}
+.col-5{
+  width:41.666%;
+}
+.col-6{
+  width:50%;
+}
+.col-7{
+  width:58.333%;
+}
+.col-8{
+  width:66.666%;
+}
+.col-9{
+  width:41.666%;
+}
+.col-10{
+  width:75%;
+}
+.col-11{
+  width:91.666%;
+}
+.col-12{
+  width:100%;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.colorTexto{
+  color:white;
+}
+#barraNav section{
+  color:white;
+  background: #2c3e50;
+}
+.fuente{
+  font-family:sans-serif;
+}
+.tamanoFuente1{
+  font-size: 28px;
+}
+.tamanoFuente2{
+  font-size: 17px;
+}
+.alinearDer{
+  float:right;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+}
+.pd-35{
+  padding-top:35px;
+}
+.pd-35B{
+  padding-bottom: 35px;
+}
+.pd-Der{
+  padding-right: 100px;
+}
+.centrar{
+  align: center;
+}
+.espacioIzq{
+  padding-left: 100px;
+}
+.mg-Der{
+  margin-left: 100px;
+}
+.fondo2{
+  background: #18bc9c;
+}
+#cajaAzul{
+  width:100%;
+  height: 600px;
+}
