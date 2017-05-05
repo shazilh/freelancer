@@ -8,13 +8,7 @@ margin: 0;
 padding: 0;
 
 }
-.barra{
-  float:right;
-}
-.container{
-    width: 100%;
-    margin:0px auto;
-}
+
 .row:before, .row:after{
     content: " ";
     display:table;
@@ -68,10 +62,7 @@ padding: 0;
 .colorTexto{
   color:white;
 }
-#barraNav section{
-  color:white;
-  background: #2c3e50;
-}
+
 .fuente{
   font-family:sans-serif;
 }
@@ -90,10 +81,7 @@ padding: 0;
 .alinearDer{
   float:right;
 }
-nav a{
-  color:white;
-  text-decoration: none;
-}
+
 .pd-35{
   padding-top:35px;
 }
@@ -106,6 +94,9 @@ nav a{
 
 .pd-Top100{
   padding-top: 100px;
+}
+.margencito{
+  margin-left: 20px;
 }
 .centrar{
   align: center;
@@ -189,4 +180,7 @@ hr{
 #cuadrosImag img{
   width: 300px;
   height: 300px;
+}
+.espacioFondo2{
+  margin-top: 100px;
 }
